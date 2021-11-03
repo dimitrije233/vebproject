@@ -1,0 +1,79 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija slika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="logo.jpg" alt="Logo" width="95px" height="50px" float="left" >
+        <ul>
+            <li><a href="project.html">Pocetna</a></li>
+            <li><a href="СЛИКЕ.html">Dela u ponudi</a></li>
+            <li><a href="info.html">O nama</a></li>
+        </ul>
+    </nav>
+    <div class="prostor">
+    </div>
+  <section class="sek2">
+        <div class="main">
+            <div class="sekcija" id="onama">
+                <h1>O nama</h1> 
+                <hr id="linija">
+                <p><span>Galerija slika</span>, je osnovana 1996. godine. Obuhvata više delatnosti usko vezanih za umetnost i kreativnost.
+
+                         Osnovna delatnost sa kojom je galerija počela je uramljivanje slika, a kasnije se delatnosti šire i na umetničke slike , digitalnu štampu, proizvodnju velikog broja suvenira vezanih za slikarstvo i grad Beograd, minijatura, izrada ikona, ogledala.</p>
+                <p><span>Galerija</span> već dugi niz godina sarađuje sa velikim brojem slikara i iz te saradnje je nastala prodajna galerija slika. Ponuda galerije je jako velika, obuhvata skoro sve srpske slikare koji su obeležili naše doba i u stalnoj ponudi je više od 400 slika od preko 50 autora. Dela koja su zastupljena su raznih tehnika (ulje na platnu, akvarel, akrilik, pastel, grafika, ikona, naiva), a tematike, pejzaž, mrtva priroda, figura, apstrakcije.</p>
+                <div class="prostor"></div>
+                <div class="lokacija">
+                    <div class="onama">
+                        <img class="slika" src="lkc2.png">
+                        <h2>Lokacija 1</h2>
+                        <p>Nalazimo se u Resavskoj, 38 na uglu Resavske i Nemanjine,preko puta parka"Manjež".</p>
+                    </div>
+                    <div class="onama">
+                        <img class="slika" src="lkc1.png">
+                        <h2>Lokacija 2</h2>
+                        <p>I još se nalazimo u Alekse Nenadovica 4a, u blizini Trga Slavija.</p>
+                    </div>
+                    <div class="fcf-body">
+
+                    <div id="fcf-form">
+              <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div>
+            <label for="Name">Your name</label>
+            <div>
+                <input type="text" id="Name" name="Name" required>
+            </div>
+        </div>
+
+        <div >
+            <label for="Email" >Your email address</label>
+            <div>
+                <input type="email" id="Email" name="Email" required>
+            </div>
+            <div >
+            <label for="Message" >Your message</label>
+            <div >
+                <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div >
+            <button type="submit" id="fcf-button">Send Message</button>
+        </div>
+
+        </div>
+                    <a href="#" class="btt">TOP</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Димитрије Митровић ИТ113/19</p>
+    </footer>
